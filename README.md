@@ -11,7 +11,7 @@ Estimate the 5-year impact on public health insurance spending from
 reimbursing enfortumab vedotin, with the ability to interactively change
 key assumptions:
 1. price
-   * JUHR = Jádrová úhrada/core reimbursement is amount that the public health insurance system reimburses
+   * JUHR = Jádrová úhrada/core reimbursement is the amount that the public health insurance system reimburses
    *  UHR = JUHR + pharmacy/distribution margin + VAT
 2. % of patinets in monotherapy vs combination therapy
 3. population size each year.
