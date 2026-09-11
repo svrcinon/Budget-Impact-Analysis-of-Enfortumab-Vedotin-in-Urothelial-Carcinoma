@@ -3,7 +3,7 @@
 
 An interactive model of the 5-year budget impact on a Czech payer's when reimbursing enfortumab vedotin. The project combines a Python-based patient population simulation with an interactive Power BI dashboard.
 
-[![Dashboard](example.png)](example.pdf)
+[![Dashboard](example.png)](example.png)
 
 ## Objective
 
