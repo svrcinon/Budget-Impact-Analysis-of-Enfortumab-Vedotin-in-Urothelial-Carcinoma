@@ -54,13 +54,17 @@ key assumptions:
 - **Treatment duration**: clinical trials EV-302 (combination) and
   EV-301 (monotherapy).
 
-## Limitations
 
-- Fixed 5-year window: treatment started in year 5 and extending into year 6
-  is counted only up to its year-5 consumption.
-- Uptake curve is an assumption and should ideally be sourced from the
-  SÚKL assessment report.
-- Price perspective is adjustable (payer reimbursement vs. price including VAT).
+## Limitations
+- **Gross, not net, budget impact** – the model estimates the cost of enfortumab vedotin only. Costs of pembrolizumab in the combination regimen and of displaced therapies (platinum-based chemotherapy) are not offset, so the net impact on the payer is lower than shown.
+- **Weight distribution** – lognormal with Czech mean weights; the standard deviation (14 kg men, 11.5 kg women) is an assumption.
+- **No dose modifications** – dose reductions, delays and interruptions are not modelled, which overestimates consumption.
+- **No vial sharing** – wastage is computed per patient; centres that pool vials would see lower wastage.
+- **Treatment duration** is the trial median applied deterministically, with no time-on-treatment curve; real-world patients tend to be older with more comorbidities, so actual duration may be shorter.
+- **List prices** – confidential discounts and risk-sharing agreements are not reflected.
+- **Uptake curve** is an assumption and should ideally be sourced from the SÚKL assessment report.
+- **Fixed 5-year window** – courses starting in year 5 are counted only up to year-5 consumption.
+
 
 ## Tools
 
