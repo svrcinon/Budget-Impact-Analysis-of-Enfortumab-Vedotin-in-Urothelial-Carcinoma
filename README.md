@@ -1,7 +1,7 @@
 # Budget Impact Model – Padcev (enfortumab vedotin)
 ## Urothelial carcinoma | Czech payer perspective | 5-year horizon
 
-An interactive model of the 5-year budget impact on a Czech payer's when reimbursing enfortumab vedotin. The project combines a Python-based patient population simulation with an interactive Power BI dashboard.
+An interactive model of the 5-year budget impact on a Czech payer's budget when reimbursing enfortumab vedotin. The project combines a Python-based patient population simulation with an interactive Power BI dashboard.
 
 [![Dashboard](example.png)](example.png)
 
@@ -13,7 +13,7 @@ key assumptions:
 1. price
    * JUHR = Jádrová úhrada/core reimbursement is the amount that the public health insurance system reimburses
    *  UHR = JUHR + pharmacy/distribution margin + VAT
-2. % of patinets in monotherapy vs combination therapy
+2. % of patients in monotherapy vs combination therapy
 3. population size each year.
 
 ## Key features
