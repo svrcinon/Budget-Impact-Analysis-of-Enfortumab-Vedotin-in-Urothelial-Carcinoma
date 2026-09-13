@@ -46,27 +46,21 @@ key assumptions:
    price per mg, split across years via the carry-over coefficient.
 
 ## Data sources
-
-- **Price**: SÚKL (State Institute for Drug Control) – reimbursement
-  proceeding SUKLS325499/2024.
-- **Dosing**: Padcev Summary of Product Characteristics (SmPC), section 4.2.
-- **Eligible population**: SÚKL assessment-report summary (113–188 patients/year).
-- **Treatment duration**: clinical trials EV-302 (combination) and
-  EV-301 (monotherapy).
+- **Sex distribution**: ÚZIS ČR / Uroweb – epidemiology of urogenital cancers in the Czech Republic (NOR data, C67, 1 559 men and 540 women)
+- **Body weight**: ÚZIS ČR, Aktuální informace 70/2010 (EHIS 2008), https://www.uzis.cz/sites/default/files/knihovna/70_10.pdf
+- **Variance of body weight**: SZÚ – EHES 2019 (measured height/weight/BMI, Czech adults) https://szu.gov.cz/wp-content/uploads/2023/01/ehes2022.pdf
+- **Treatment duration**:
+  EV-301 – Powles T. et al., N Engl J Med 2021;384:1125-1135, https://doi.org/10.1056/NEJMoa2035807
+  EV-302 – Powles T. et al., N Engl J Med 2024, https://doi.org/10.1056/NEJMoa2312117
 
 
 ## Limitations
 - **Gross, not net, budget impact** – the model estimates the cost of enfortumab vedotin only. Costs of pembrolizumab in the combination regimen and of displaced therapies (platinum-based chemotherapy) are not offset, so the net impact on the payer is lower than shown.
-- **Weight distribution** – lognormal with Czech mean weights; the standard deviation (14 kg men, 11.5 kg women) is an assumption.
+- **Weight distribution** – lognormal with Czech mean weights
 - **No dose modifications** – dose reductions, delays and interruptions are not modelled, which overestimates consumption.
 - **No vial sharing** – wastage is computed per patient; centres that pool vials would see lower wastage.
 - **Treatment duration** is the trial median applied deterministically, with no time-on-treatment curve; real-world patients tend to be older with more comorbidities, so actual duration may be shorter.
 - **List prices** – confidential discounts and risk-sharing agreements are not reflected.
 - **Uptake curve** is an assumption and should ideally be sourced from the SÚKL assessment report.
 - **Fixed 5-year window** – courses starting in year 5 are counted only up to year-5 consumption.
-
-
-## Tools
-
-Python (NumPy, pandas) for the population simulation · Power BI for the
 interactive dashboard and what-if parameters.
