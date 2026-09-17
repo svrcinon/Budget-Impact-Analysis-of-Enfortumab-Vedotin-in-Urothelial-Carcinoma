@@ -63,4 +63,4 @@ key assumptions:
 - **List prices** – confidential discounts and risk-sharing agreements are not reflected.
 - **Uptake curve** is an assumption and should ideally be sourced from the SÚKL assessment report.
 - **Fixed 5-year window** – courses starting in year 5 are counted only up to year-5 consumption.
-interactive dashboard and what-if parameters.
+- **No discounting**: annual costs are presented in nominal CZK at current prices, each year separately, without a discount rate. This follows the SÚKL methodology for budget impact analysis (SP-CAU-027, v6, effective 14 Sep 2026), which explicitly states that discounting should not be applied in BIA (see SUKL methodology 20260914 in files).
